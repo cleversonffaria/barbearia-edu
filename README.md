@@ -1,36 +1,174 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🪒 Barbearia do Edu - Website Oficial
 
-## Getting Started
+Uma landing page moderna e responsiva desenvolvida para a Barbearia do Edu, oferecendo uma experiência visual elegante e funcional para apresentar os serviços, galeria de trabalhos e informações de contato.
 
-First, run the development server:
+## 🚀 Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **[Next.js 14](https://nextjs.org/)** - Framework React para produção
+- **[React 18](https://reactjs.org/)** - Biblioteca JavaScript para interfaces
+- **[TypeScript](https://www.typescriptlang.org/)** - Superset tipado do JavaScript
+- **[Tailwind CSS](https://tailwindcss.com/)** - Framework CSS utilitário
+- **[Lucide React](https://lucide.dev/)** - Biblioteca de ícones
+- **[SCSS](https://sass-lang.com/)** - Pré-processador CSS
+
+## ✨ Funcionalidades
+
+- 📱 **Design Responsivo** - Otimizado para todos os dispositivos
+- 🎨 **Interface Moderna** - Design clean e profissional
+- 🧭 **Menu Flutuante** - Navegação suave e intuitiva
+- 🖼️ **Galeria Interativa** - Showcase dos trabalhos realizados
+- 📊 **Seção de Estatísticas** - Métricas da barbearia
+- 💳 **Cards de Serviços** - Apresentação clara dos preços
+- ⭐ **Sistema de Avaliações** - Depoimentos de clientes
+
+## 🏗️ Estrutura do Projeto
+
+```
+edu-barbearia/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── AboutSection.tsx
+│   ├── ContactCard.tsx
+│   ├── ContactSection.tsx
+│   ├── Footer.tsx
+│   ├── GallerySection.tsx
+│   ├── Header.tsx
+│   ├── HeroSection.tsx
+│   ├── ServiceCard.tsx
+│   ├── ServicesSection.tsx
+│   ├── TestimonialCard.tsx
+│   └── TestimonialsSection.tsx
+├── public/
+│   ├── galery/
+│   │   ├── img1.jpeg
+│   │   ├── img2.jpeg
+│   │   ├── img3.jpeg
+│   │   ├── img4.png
+│   │   ├── img5.jpeg
+│   │   └── img6.jpeg
+│   └── background.png
+├── styles/
+│   └── custom.scss
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Instalação e Execução
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Pré-requisitos
+- Node.js 18+ 
+- npm ou yarn
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1. Clone o repositório
+```bash
+git clone https://github.com/seu-usuario/edu-barbearia.git
+cd edu-barbearia
+```
 
-## Learn More
+### 2. Instale as dependências
+```bash
+npm install
+# ou
+yarn install
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 3. Execute o projeto em modo de desenvolvimento
+```bash
+npm run dev
+# ou
+yarn dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 4. Acesse no navegador
+Abra [http://localhost:3000](http://localhost:3000) para ver o resultado.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Componentes Principais
 
-## Deploy on Vercel
+### Header
+Menu de navegação flutuante com design glassmorphism e responsividade completa.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### HeroSection
+Seção principal com imagem de fundo, overlay personalizado e call-to-actions.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### AboutSection
+Apresentação da barbearia com estatísticas organizadas em cards.
+
+### ServicesSection
+Grid responsivo com cards de serviços, preços e descrições.
+
+### GallerySection
+Galeria de imagens dos trabalhos com efeitos hover e transições suaves.
+
+### TestimonialsSection
+Cards de depoimentos com sistema de avaliação por estrelas.
+
+### ContactSection
+Informações de contato organizadas em cards reutilizáveis.
+
+## 🛠️ Scripts Disponíveis
+
+```bash
+# Desenvolvimento
+npm run dev
+
+# Build para produção
+npm run build
+
+# Iniciar versão de produção
+npm run start
+
+# Lint do código
+npm run lint
+```
+
+## 📋 Seções do Site
+
+1. **Início** - Hero section com apresentação
+2. **Sobre** - História e estatísticas da barbearia
+3. **Serviços** - Lista completa de serviços e preços
+4. **Galeria** - Portfólio de trabalhos realizados
+5. **Depoimentos** - Avaliações de clientes
+6. **Contato** - Informações para agendamento
+
+## 🎯 Informações de Contato
+
+- **📞 Telefone:** (22) 99733-4974
+- **📍 Endereço:** Av. Maj. Bley, 16 - Centro, Bom Jesus do Norte/ES
+- **🕐 Horário:** Ter - Sex: 8h às 19h | Sáb: 8h às 19h
+
+## 🚀 Deploy
+
+O projeto está otimizado para deploy em plataformas como:
+
+- **Vercel** (recomendado para Next.js)
+- **Netlify**
+- **GitHub Pages**
+
+Para deploy na Vercel:
+```bash
+npm install -g vercel
+vercel
+```
+
+## 🔧 Customização
+
+### Cores
+As cores principais estão configuradas no Tailwind:
+- **Primária:** Âmbar (#F59E0B)
+- **Secundária:** Cinza escuro (#1E1E1E)
+- **Accent:** Branco (#FFFFFF)
+
+### Imagens
+- Substitua `/background.png` pela imagem de fundo desejada
+- Atualize as imagens da galeria em `/public/galery/`
+- Mantenha as proporções 4:3 para melhor resultado
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 👨‍💻 Desenvolvedor
+
+Cléverson Fernandes
