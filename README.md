@@ -1,5 +1,7 @@
 # 🪒 Barbearia do Edu - Website Oficial
 
+🌐 **Acesse o site:** [https://barbearia-edu.vercel.app/](https://barbearia-edu.vercel.app/)
+
 Uma landing page moderna e responsiva desenvolvida para a Barbearia do Edu, oferecendo uma experiência visual elegante e funcional para apresentar os serviços, galeria de trabalhos e informações de contato.
 
 ## 🚀 Tecnologias Utilizadas
@@ -122,53 +124,3 @@ npm run start
 # Lint do código
 npm run lint
 ```
-
-## 📋 Seções do Site
-
-1. **Início** - Hero section com apresentação
-2. **Sobre** - História e estatísticas da barbearia
-3. **Serviços** - Lista completa de serviços e preços
-4. **Galeria** - Portfólio de trabalhos realizados
-5. **Depoimentos** - Avaliações de clientes
-6. **Contato** - Informações para agendamento
-
-## 🎯 Informações de Contato
-
-- **📞 Telefone:** (22) 99733-4974
-- **📍 Endereço:** Av. Maj. Bley, 16 - Centro, Bom Jesus do Norte/ES
-- **🕐 Horário:** Ter - Sex: 8h às 19h | Sáb: 8h às 19h
-
-## 🚀 Deploy
-
-O projeto está otimizado para deploy em plataformas como:
-
-- **Vercel** (recomendado para Next.js)
-- **Netlify**
-- **GitHub Pages**
-
-Para deploy na Vercel:
-```bash
-npm install -g vercel
-vercel
-```
-
-## 🔧 Customização
-
-### Cores
-As cores principais estão configuradas no Tailwind:
-- **Primária:** Âmbar (#F59E0B)
-- **Secundária:** Cinza escuro (#1E1E1E)
-- **Accent:** Branco (#FFFFFF)
-
-### Imagens
-- Substitua `/background.png` pela imagem de fundo desejada
-- Atualize as imagens da galeria em `/public/galery/`
-- Mantenha as proporções 4:3 para melhor resultado
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 👨‍💻 Desenvolvedor
-
-Cléverson Fernandes

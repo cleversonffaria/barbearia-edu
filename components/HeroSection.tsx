@@ -20,7 +20,9 @@ export default function HeroSection() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="#contato"
+            href="https://calendly.com/agendamentoedubarbearia/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-amber-500 hover:bg-amber-600 text-[#1E1E1E] font-bold py-4 px-8 rounded-lg transition-colors inline-flex items-center justify-center shadow-lg hover:shadow-xl"
           >
             <Phone className="mr-2 h-5 w-5" />
