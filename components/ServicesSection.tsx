@@ -3,7 +3,7 @@ import ServiceCard from "./ServiceCard";
 const services = [
   {
     name: "Corte Tradicional",
-    price: "R$ 28,00",
+    price: "R$ 30,00",
     description: "Corte clássico com acabamento perfeito",
   },
   {
@@ -13,13 +13,33 @@ const services = [
   },
   {
     name: "Corte + Barba",
-    price: "R$ 48,00",
+    price: "R$ 50,00",
     description: "Combo completo para ficar impecável",
   },
   {
     name: "Sobrancelha",
-    price: "R$ 10,00",
+    price: "R$ 15,00",
     description: "Design e limpeza das sobrancelhas",
+  },
+  {
+    name: "Pézinho",
+    price: "R$ 12,00",
+    description: "Cuidados e limpeza dos pés",
+  },
+  {
+    name: "Luzes",
+    price: "R$ 60,00",
+    description: "Iluminação e realce dos cabelos",
+  },
+  {
+    name: "Pigmentação",
+    price: "R$ 25,00",
+    description: "Pigmentação de cabelo e barba",
+  },
+  {
+    name: "Pintura",
+    price: "R$ 25,00",
+    description: "Aplicação de pintura nos cabelos",
   },
 ];
 
