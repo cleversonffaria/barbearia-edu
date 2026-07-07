@@ -8,8 +8,8 @@ export default function Footer() {
           <Scissors className="h-6 w-6 text-amber-500" />
           <span className="text-xl font-bold">Barbearia do Edu</span>
         </div>
-        <p className="text-gray-400">© 2025 Barbearia do Edu. Todos os direitos reservados.</p>
+        <p className="text-gray-400">© 2026 Barbearia do Edu. Todos os direitos reservados.</p>
       </div>
     </footer>
   )
-} 
+}
